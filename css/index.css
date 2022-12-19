@@ -1,0 +1,61 @@
+.input-value {
+  font-size: 15px;
+  padding: 17px 20px;
+  width: 80%;
+  margin: 10px 10px;
+
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.form-container {
+  width: 30%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.home-container {
+  display: flex;
+  justify-content: space-between;
+}
+.table-content {
+  /* width: 90%; */
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.btn {
+  font-size: 15px;
+  padding: 17px 20px;
+  width: 40%;
+  margin-left: 100px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+th {
+  padding: 20px 20px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+td {
+  padding: 30px;
+  font-size: 15px;
+}
+/* th,
+td {
+  border: 0.5px solid rgba(0, 0, 0, 0.156);
+} */
+
+.table-row:hover {
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px 0px; */
+
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+table {
+  margin: auto;
+  /* margin-top: 30px; */
+}
+h1 {
+  text-align: center;
+}

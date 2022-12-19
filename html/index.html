@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOMO Transaction</title>
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <h1>MOMO Transaction Manager</h1>
+    <div class="home-container">
+      <div class="form-container">
+        <h2>Record your Transaction</h2>
+        <form id="form">
+          <input
+            type="datetime-local"
+            id="date"
+            name="Date"
+            placeholder="transaction date"
+            class="input-value"
+          /><br />
+          <input
+            type="text"
+            id="transaction"
+            name="Transaction"
+            placeholder="transaction "
+            class="input-value"
+          /><br />
+          <input
+            type="number"
+            id="amount"
+            name="Amount"
+            placeholder="Amount"
+            class="input-value"
+          /><br />
+          <input
+            type="text"
+            id="sendername"
+            name="sendername"
+            placeholder="sender name"
+            class="input-value"
+          /><br />
+          <input
+            type="number"
+            id="sendernumber"
+            name="sendernumber"
+            placeholder="sender number"
+            class="input-value"
+          /><br />
+          <input
+            type="text"
+            id="recievername"
+            name="recievername"
+            placeholder="reciever name"
+            class="input-value"
+          /><br />
+          <input
+            type="number"
+            id="recievernumber"
+            name="recievernumber"
+            placeholder="reciever tel number"
+            class="input-value"
+          /><br />
+          <input type="button" value="submit" id="btn" onclick="Submit() " />
+          <input type="reset" value="reset" />
+        </form>
+      </div>
+      <div>
+        <div id="msg">message</div>
+        <fieldset>
+          <legend>data from local storage</legend>
+          <table border="2" id="table">
+            <tr>
+              <td class="col">date</td>
+              <td class="col">transaction</td>
+              <td class="col">amount</td>
+              <td class="col">action</td>
+            </tr>
+          </table>
+        </fieldset>
+      </div>
+    </div>
+  </body>
+  <!-- <script src="../ls.js"></script> -->
+  <script src="../javascript/index.js"></script>
+</html>
